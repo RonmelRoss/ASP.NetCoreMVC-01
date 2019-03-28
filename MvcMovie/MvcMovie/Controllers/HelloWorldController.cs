@@ -10,9 +10,15 @@ namespace MvcMovie.Controllers
     public class HelloWorldController : Controller
     {
         // GET: /HelloWorld/
-        public string Index()
+        //public string Index()
+        //{
+        //    return "This is my default action...";
+        //}
+        public IActionResult Index()
         {
-            return "This is my default action...";
+            //If you don't explicitly specify the name of the view template file, 
+            //MVC defaulted to using the Index.cshtml view file in the /Views/HelloWorld folder
+            return View();
         }
 
         // GET: /HelloWorld/Welcome/ 
@@ -42,6 +48,18 @@ namespace MvcMovie.Controllers
         public string Welcome2(string name, int ID = 1)
         {
             return HtmlEncoder.Default.Encode($"Hello {name}, ID: {ID}");
+        }
+
+        public IActionResult Welcome3(string name, int numTimes = 1)
+        {
+            //Data is taken from the URL and passed to the controller using the MVC model binder . 
+            //The controller packages the data into a ViewData dictionary and passes that object to the view. 
+            //The view then renders the data as HTML to the browser.
+
+            ViewData["Message"] = "Hello " + name;
+            ViewData["NumTimes"] = numTimes;
+
+            return View();
         }
     }
 }

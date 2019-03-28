@@ -28,3 +28,5 @@ C:\Users\rvr\source\repos\ASP.NetCoreMVC-01\MvcMovie\MvcMovie\obj\Debug\netcorea
 C:\Users\rvr\source\repos\ASP.NetCoreMVC-01\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.2\MvcMovie.dll
 C:\Users\rvr\source\repos\ASP.NetCoreMVC-01\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.2\MvcMovie.pdb
 C:\Users\rvr\source\repos\ASP.NetCoreMVC-01\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.2\MvcMovie.csproj.CopyComplete
+C:\Users\rvr\source\repos\ASP.NetCoreMVC-01\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.2\Razor\Views\HelloWorld\Index.g.cshtml.cs
+C:\Users\rvr\source\repos\ASP.NetCoreMVC-01\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.2\Razor\Views\HelloWorld\Welcome3.g.cshtml.cs
